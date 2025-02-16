@@ -7,7 +7,7 @@
 import FirebaseCore
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     init(){
         FirebaseApp.configure()
     }
@@ -24,5 +24,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
